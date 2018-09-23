@@ -81,7 +81,7 @@ messages : __${sw[messages.guild.id].msk}__`)
         .setColor(`BLUE`)
             messages.channel.send({embed})
 }
-        fs.writeFile("./setWlc.json", JSON.stringify(sw), (err) => {
+        fs.writeFile("./setwlc.json", JSON.stringify(sw), (err) => {
         if (err) console.error(err)
 });
 })
